@@ -1,0 +1,464 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>palestine the holy land.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="></span>
+        <span class="palestine"></span>
+        <span class="israel"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#jerusalem">HISTORY</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">history</a></li>
+            <li><a href="#">modern</a></li>
+            <li><a href="#">about us</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="a1a2.JPG" alt="Palestine flag" width="1200" height="700">
+        <div class="carousel-caption">
+          <h4>Palestine the holy land.</h4>
+          <p> .</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="d1d2.jpg" alt="Jerusalem" width="1200" height="700">
+        <div class=".">
+          <h3>Jerusalem</h3>
+          <p>the capital of Palestine.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="pal.5.jpg" alt="Bethlehem" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Bethlehem</h3>
+          <p>Bethlehem city embracing church of Nativity where Jesus was born</p>
+        </div>      
+
+		</div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>Palestine</h3>
+  <p><em>We love Palestine</em></p>
+  
+  <p>Visitors to Palestine who seek a unique and unforgettable journey can dive into the history of the earliest human settlement in Jericho and Wadi Khareitoun. They can trace the advent of urban society, the footsteps of prophets, or the path of Jesus Christ from birth to resurrection.</p> Simply travelling from one city to the next offers an eclectic mix of heritage. In Bethlehem, travellers can visit the Grotto of the Nativity where Jesus Christ was born, then travel southeast to the village of Beit Sahour where they can see the Shepherds’ Fields.<br> Then moving southward along Hebron Road travellers will find the remains of an ancient water system: Solomon’s Pools and their extensive water canals.<br> Farther down the road is the city of Hebron, a vibrant economic center that is home to the burial place of six of monotheism’s patriarchs, and one of the four sacred cities of Islam.
+
+<p>Lying to the east is the Jordan River, where John baptized Jesus Christ. The sycamore tree that Zacchaeus climbed in order to see Christ on his walk to Jerusalem sits just inside the new city of Jericho; and west of the city are the high cliffs known as the Mount of Temptation, home for centuries to a Greek Orthodox monastery.</p>
+ <p>Beyond the Biblical sites, the Jordan Valley plays host to several important attractions that include the Dead Sea, where the Dead Sea Scrolls were found at Qumran; the oldest city on earth, Tell al-Sultan, the sugar mills, and the nearby Hisham’s Palace; sites dating from the prehistoric periods through to the Bronze and Iron ages, up to the Persian, Hellenistic, Roman, Byzantine, Crusader, Umayyad, Abbasid, Fatimid, Ayyubid, Mamluk, and Ottoman times. With bicycle rentals in the town center and a cable car to the mount, hundreds of thousands of years of human history can be taken in during an afternoon.</p>
+
+<p>Then turning north, one finds the city of Jenin, one of the oldest places of habitation on the ancient plain of Marj Ibn Amer. At the southeastern edge of the plain, a few kilometers west of the city stands the fourth-century church of Burqin, erected to mark the spot where Jesus healed ten lepers.</p> The city would have been one of those in the path of Mary and Joseph as they travelled on their way to Bethlehem from Nazareth.<br>
+<p> Along this path, olive trees – more common in the central and northern districts – gradually give way to vineyards, which are dominant in the south, especially on the Hebron and Bethlehem hills. Stone terraces enclose the trees and vines, and watchtowers are distinctive features of the rolling hills. Fieldstone-terraced hills along the mountain terrain serve to retain moisture and prevent soil erosion.</p> Watchtowers, which were important for seasonal agriculture and used to guard the fields and crops, are living testimony to the relationship between the Palestinian farmer and his land.
+
+<p>South of Jenin is Nablus, nestled between two round mountains along the floor of the valley that connects them. Over the years, homes have crept up the hills and offer spectacular views of the city core.</p> Visitors can walk through the historic market and dense old city center, with its fabric shops, mosques, and churches. <br>With a working olive-oil-soap factory, and home to Palestine’s favorite dessert, Nablus is the capital of the north.<br> Nearby are the sister cities of Tulkarem and Qalqilya that are found on the fringe of Palestine’s central mountainous ridge south of Marj Ibn Amer, and represent the central zone of Palestine.<br> The area played an important role in the past as a crossroads between the sea and the northern region, and today is the site of hundreds of archaeological features (Tell Taannek, Tell Jenin, Khirbit Bal’ama, Tell Dothan, Khirbet as-Samra, and Wadi Qana), which provide information about the region’s cultural history.<br> This is known as the breadbasket of the area, with farmers who grow wheat, olives, almonds, figs, and citrus.
+
+<p>To the southwest, towards Palestine’s coast, is Gaza. Its old city market is a top attraction, as are archaeological sites such as Tell al-Ajjul, Tell as-Sakan, Tell al-Blakhyia, and Um Amer, as well as the newly excavated Byzantine churches that date back to the fourth and fifth centuries AD, only recently unearthed and renovated.</p>
+
+<p>The heart of Palestinian culture is, of course, Jerusalem. The city where Jesus Christ walked and spread his message of peace and love, where he spent his last days with loyal disciples, and where he was crucified, buried, and resurrected. It is also in Jerusalem where one can visit the magnificent Dome of the Rock and Al-Aqsa Mosque, two of Islam’s holiest and most beautiful shrines that make the skyline of Jerusalem so iconic and unique. </p>
+
+© All Rights Reserved By Ministry of Tourism & Antiquities 2018
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>star in the church of Nativity</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="na.jpg" class="img-circle person" alt="starbin the church of Nativity" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>star in the church of Nativity</p>
+        <p>in Bethlehem</p>
+        <p>built in 335 by king constantine</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Al - Aqsa Mosque</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="pal.22.jpg" class="img-circle person" alt="Al - Aqsa Mosque" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Al - Aqsa Mosque</p>
+        <p>in Jerusalem'</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Baha'i Park</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="pal.88.jpg" class="img-circle person" alt="Haifa" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <ul class="list-group">
+      <li class="list-group-item">
+ <span class="label label-danger">your opinion matters.</span></li>
+      <li class="list-group-item">We hope you like our site. <span class="label label-danger"></span></li> 
+      
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="pal.55.jpg" alt="hebron" width="400" height="300">
+          <p><strong>Hebron</strong></p>
+          <p></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">visit</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="pal4.jpg" alt="Jenin" width="400" height="300">
+          <p><strong>Jenin</strong></p>
+          <p></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">visit</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="pal88.jpg" alt="Nazareth" width="400" height="300">
+          <p><strong>Nazareth</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#myModal">visit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+.          <h4><span class="glyphicon glyphicon-lock"></span> </h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> </label>
+              <input type="number" class="form-control" id="psw" placeholder="do you like to visit?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span></label>
+
+              <button type="submit" class="btn btn-block"> 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <p><span class="glyphicon glyphicon-map-marker"></span>Bethlehem</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone Alaa Abuzer: +970595788214</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: alaa.abuzer02@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">about us</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">karam ali </a></li>
+    <li><a data-toggle="tab" href="#menu1">Alaa' Abuzer</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>karam ali </h2>
+      <p>my name is karam i live in Bethlehem  iam study in Bethlehem secondary school I am beginner programmer my facebook profile<a href="https://www.facebook.com/profile.php?id=100009548028716" title="facebook profile">www.facebook.com/karam.suboh</a> </p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <i><h2>3laa Abuzer</h2></i>
+      <p>My name is Alaa I live in bethlahem my Facebook profile<a href="https://www.facebook.com/ala.abuzer" title="facebook profile">www.facebook.com/ala.abuzer</a> </p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2></h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+<center><img src="s1s2s3.jpg" alt="Girl in a jacket" style="width:1000px;height:500px;"></center>
+
+</body>
+</html>
